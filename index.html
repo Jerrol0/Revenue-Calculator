@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenue Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="revenue.js"></script>
+</head>
+<body>
+    <div class="revenue-container">
+        <div class="revenue-calculator">
+            <h1>Revenue <span>Calculator</span></h1>
+            <div class="inputs-container">
+                <form class="inputs">
+                    <label for="product-price">Product Price</label>
+                    <input type="text" id="product-price">
+                    <br><br>
+
+                    <label for="quantity">Quantity Sold </label>
+                    <input type="text" id="quantity">
+                    <br><br>
+
+                    <label for="additional-fees">Additional Fees</label>
+                    <input type="text" id="additional-fees">
+                    <br><br>
+                    <button type="button" onclick="calculateRevenue()">Calculate</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="results">
+            <h3>Subtotal: <span id="subtotal"></span></p>
+            <h3>Total Revenue: <span id="total-revenue"></span></p>
+            <h3>Tax (12%): <span id="tax"></span></p>
+            <h3>Final Revenue: <span id="final-revenue"></span></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+
+.revenue-container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #141414, #333333);  
+    color: white;
+    padding:10px
+}
+
+.revenue-calculator {
+    width: 100%;
+    max-width: 650px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.revenue-calculator h1 {
+    margin-top: -100px;
+    font-size: 65px;
+}
+
+.revenue-calculator  h1 span {
+    color: #493f73;
+}
+
+.inputs-container {
+    margin-top: 35px;
+    max-width: 400px;
+    background: #2e2e2e;
+    padding: 5%;
+    border-radius: 10px;
+    float: left;
+}
+
+.inputs label {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.inputs input{
+    margin-top: 10px;
+    background: #493f73;
+    color: white;
+    padding: 9px 14px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.inputs-container button {
+    margin-top: 10px;
+    background: #493f73;
+    color: white;
+    letter-spacing: 1px;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    font-weight: 900;
+}
+
+.results {
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 400px;
+    height: 390px;
+    background: #2e2e2e;
+    padding: 5%;
+    border-radius: 10px; 
+    float: left;
+}
+
+.results h3 {
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-left: -50px;
+    letter-spacing: 1px;
+}
